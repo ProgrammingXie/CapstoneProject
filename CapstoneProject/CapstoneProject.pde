@@ -132,10 +132,10 @@ void setup() {
   //frameRate(40);
   frameRate(100);
   
-  //GameMode = Intro;
+  GameMode = Intro;
   //GameMode = Menu;
   //GameMode = Tutorial;
-  GameMode = GameChapterSelection;
+  //GameMode = GameChapterSelection;
   
   myIntroObjects = new ArrayList<IntroObjects>();
   for (int i = 0; i < 300; i++){
@@ -216,9 +216,9 @@ void draw() {
   text("fps:",10,35);
   text(frameRate,70,35);
   
-  fill(255,0,0);
-  noStroke();
-  ellipse(mouseX,mouseY,10,10);// red ball show mouse location
+  //fill(255,0,0);
+  //noStroke();
+  //ellipse(mouseX,mouseY,10,10);// red ball show mouse location
  
   println(mouseX,mouseY);
  //println(width,height); 1920,1080

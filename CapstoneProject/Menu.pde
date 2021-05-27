@@ -63,7 +63,7 @@ void Menu(){
   rect(0,0,width,height);
   
   //if (GalaxyForwardRotate){
-    GalaxyBackgroundRotate = GalaxyBackgroundRotate + 0.1;
+    //GalaxyBackgroundRotate = GalaxyBackgroundRotate + 0.1;
   //  if (GalaxyBackgroundRotate >= 25){
   //    GalaxyForwardRotate = false;
   //  }
